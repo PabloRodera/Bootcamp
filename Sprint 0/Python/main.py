@@ -44,10 +44,22 @@ print("hola".upper()) #Se transforma todo el texto a mayúsculas
 
 print("HOLA".lower()) #Se transforma todo el texto a minúsculas
 
+
 a,b = 3,2 #Asignacion en una única linea de 2 variables
 
 print(f"""El valor de a es {a} y el valor de b es {b}.
 Su suma es {a + b}""") #La "f" antes de la cadena de texto nos permite inyectar variables para poder mostrarlas dentro de un string mediante corchetes "{}"
+
+#Python al ser de tipado dinámico, nos permite cambiar el tipo de una variable
+
+test = 3
+print(type(test))       #Esto nos devolvera que es un valor "int"
+
+test = str(test)        #Convertimos la variable de "int" a "string"
+print(type(test))
+
+test = int(test)        #Convertimos la variable de "string" a "int"
+print(type(test))
 
 #Operadores booleanos
 
