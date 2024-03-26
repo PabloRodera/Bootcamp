@@ -1,0 +1,9 @@
+27
+27
+47
+64
+La edad de Miryam es 33
+La edad de Lara es: 10
+La edad de Jesus es: 15
+La edad de Pepe es: 80
+La edad de Jordi es: 40
