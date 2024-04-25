@@ -1,0 +1,19 @@
+ FROM python:3.9
+
+ WORKDIR /app
+
+ ENV MYSQL_HOST=mysql
+ ENV MYSQL_USER=root
+ ENV MYSQL_PASSWORD=password
+ ENV MYSQL_DB=todo_app
+
+ COPY requirements.txt requirements.txt
+ RUN apt-get update 
+ RUN apt-get install default-mysql-client -y
+ RUN pip install --no-cache-dir -r requirements.txt
+
+ EXPOSE 5000
+
+ COPY ./app /app
+
+ CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"] 
