@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "6630e9e412bc07ecc4b27488"
+  },
+  "nombre": "Pablo",
+  "apellidos": "Rodera de Casas",
+  "avatar": "",
+  "skills": [
+    {
+      "_id": "php",
+      "nombre": "PHP",
+      "nivel": "90"
+    },
+    {
+      "_id": "docker",
+      "nombre": "Docker",
+      "nivel": "75"
+    }
+  ],
+  "idiomas": [
+    {
+      "_id": "es",
+      "nombre": "Español"
+    }
+  ],
+  "educaciones": [
+    {
+      "_id": "informatica",
+      "titulo": "Ingeniero Informático",
+      "institucion": "Universidad de Alicante",
+      "descripcion": "Descripción de la formación...",
+      "fecha_inicio": "2010-09-01",
+      "fecha_fin": "2015-07-01"
+    }
+  ],
+  "recomendaciones": [
+    {
+      "_id": "juanp",
+      "nombre_recomendador": "Juan Pérez",
+      "texto_recomendacion": "Pablo es un excelente profesional..."
+    },
+    {
+      "_id": "mariag",
+      "nombre_recomendador": "María Gutiérrez",
+      "texto_recomendacion": "Pablo es una persona muy trabajadora..."
+    }
+  ]
+}]

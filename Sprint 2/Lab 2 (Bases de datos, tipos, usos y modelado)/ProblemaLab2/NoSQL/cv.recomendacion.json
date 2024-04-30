@@ -1,0 +1,10 @@
+[{
+  "_id": "juanp",
+  "nombre_recomendador": "Juan Pérez",
+  "texto_recomendacion": "Pablo es un excelente profesional..."
+},
+{
+  "_id": "mariag",
+  "nombre_recomendador": "María Gutiérrez",
+  "texto_recomendacion": "Pablo es una persona muy trabajadora..."
+}]
