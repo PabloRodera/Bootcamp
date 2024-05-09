@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "6534f55495f7d319fc4bd986"
+  },
+  "nombre": "Antonio",
+  "apellidos": "Blanco Oliva",
+  "avatar": "",
+  "skills": [
+    {
+      "_id": "php",
+      "nombre": "PHP",
+      "nivel": "90"
+    },
+    {
+      "_id": "docker",
+      "nombre": "Docker",
+      "nivel": "85"
+    }
+  ],
+  "idiomas": [
+    {
+      "_id": "es",
+      "nombre": "Español"
+    }
+  ]
+}]
